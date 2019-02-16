@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+ 
+	"name": "GMC2",
+	"version": "0.1.0",
+	"description": "GMC in GMS2 Style",
+	
+	"content_scripts": [{
+		"css": ["styles.css"],
+		"js": ["content.js"],
+		"matches": ["https://forum.yoyogames.com/*"]
+	}],
+	
+	"web_accessible_resources": ["gmc.png"]
+}
